@@ -1,0 +1,10 @@
+{
+  "$schema": "../node_modules/@angular-devkit/schematics/collection-schema.json",
+  "schematics": {
+    "easy-schematics": {
+      "description": "A blank schematic.",
+      "factory": "./easy-schematics/index#easySchematics",
+      "schema": "./easy-schematics/schema.json"
+    }
+  }
+}
